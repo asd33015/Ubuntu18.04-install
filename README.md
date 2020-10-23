@@ -1,8 +1,8 @@
 # Ubuntu18.04-install
 
 
-一、安裝顯卡驅動
-Step 1 禁用 nouveau
+#安裝顯卡驅動
+#Step 1 禁用 nouveau
 
 終端機輸入:
 lsmod | grep nouveau
@@ -21,7 +21,7 @@ reboot
 再一次查看是否有禁用nouveau成功
 lsmod | grep nouveau
 
-Step 2 安裝NVIDIA顯示卡驅動
+#Step 2 安裝NVIDIA顯示卡驅動
 終端機輸入
 ubuntu-drivers devices
 ##可查看目前可安裝的驅動版本
