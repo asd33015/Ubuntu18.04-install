@@ -6,19 +6,25 @@
 
 終端機輸入:
 lsmod | grep nouveau
+
 //如果有輸出則表示nouveau正在加載
 
 sudo gedit /etc/modprobe.d/blacklist.conf
 
 //在打開文本的最後面添加：
+
 blacklist nouveau
+
 options nouveau modeset=0
+
 //Save
 
 sudo update-initramfs -u
+
 reboot
 
 再一次查看是否有禁用nouveau成功
+
 lsmod | grep nouveau
 
 # Step 2 安裝NVIDIA顯示卡驅動
