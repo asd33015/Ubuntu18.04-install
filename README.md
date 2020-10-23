@@ -31,11 +31,13 @@ ubuntu-drivers devices
 //選擇要安裝的版本，輸入指令 sudo apt-get install
 //install 後面輸入出現的驅動名字
 
+
 sudo apt-get install nvidia-driver-450
+
 
 以上完成顯示卡驅動安裝!!!!!
 
-二、安裝CUDA 10.0
+# 安裝CUDA 10.0
 
 
 
