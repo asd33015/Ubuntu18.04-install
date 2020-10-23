@@ -51,7 +51,8 @@ sudo apt-get install nvidia-driver-450
 以上完成顯示卡驅動安裝!!!!!
 
 # 安裝CUDA 10.0
-網路上搜尋nvidia CUDA，
+網路上搜尋nvidia CUDA，並進入CUDA安裝網頁，網頁如下
+![Alt text](1.PNG?raw=true "Title")
 
 
 
