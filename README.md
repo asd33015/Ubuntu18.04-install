@@ -9,6 +9,7 @@ lsmod | grep nouveau
 ##如果有輸出則表示nouveau正在加載
 
 sudo gedit /etc/modprobe.d/blacklist.conf
+
 ##在打開文本的最後面添加：
 blacklist nouveau
 options nouveau modeset=0
