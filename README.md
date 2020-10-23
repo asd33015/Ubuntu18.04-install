@@ -59,14 +59,14 @@ sudo apt-get install nvidia-driver-450
 ![Alt text](1.PNG?raw=true "Title")
 
 2.尋找CUDA10.0的超連結
-![Alt text](2.PNG?raw=true "Title")
+![Alt text](2.png?raw=true "Title")
 
 3.進入CUDA10.0的頁面後，請依照OS系統(如下圖的點選)點選條件
 3.1 Download
 3.2 下載完檔案後，請在ubuntu尋找檔案的資料夾，並在資料夾中右鍵點開終端機，並輸入
 
 sudo sh cuda_10.0.130_410.48_linux.run
-![Alt text](3.PNG?raw=true "Title")
+![Alt text](3.png?raw=true "Title")
 
 4.輸入完後會進入CUDA安裝的協議文件，可以利用鍵盤的SPACE(空白鍵)快速瀏覽
 
