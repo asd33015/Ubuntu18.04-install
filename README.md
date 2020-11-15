@@ -19,10 +19,10 @@ options nouveau modeset=0
 
 //Save
 
-sudo update-initramfs -u
+source ~/.bashrc
 
 reboot
-
+(重啟後，畫面解析度會降低)
 再一次查看是否有禁用nouveau成功
 
 lsmod | grep nouveau
